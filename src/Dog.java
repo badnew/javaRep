@@ -1,5 +1,9 @@
-/**
- * Created by Александр on 01.07.2016.
- */
 public class Dog {
+    int size;
+    String breed;
+    String name;
+
+    void bark() {
+        System.out.println("Hav! Hav!");
+    }
 }
