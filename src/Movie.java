@@ -1,5 +1,9 @@
-/**
- * Created by Александр on 01.07.2016.
- */
-public class Movie {
+class Movie {
+    String title;
+    String genre;
+    int rating;
+
+    void playIt() {
+        System.out.println("Проигрывание фильма");
+    }
 }
